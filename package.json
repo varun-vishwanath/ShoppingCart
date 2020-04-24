@@ -1,0 +1,26 @@
+{
+  "name": "shoppingcart",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "build-css": "node-sass --include-path scss style/commonStyle.scss style/commonStyle.scss",
+    "watch-css": "nodemon -e scss -x \"npm run build-css\""
+  },
+  "dependencies": {
+    "antd": "^4.1.1",
+    "next": "9.3.4",
+    "next-redux-saga": "^4.1.2",
+    "next-redux-wrapper": "^5.0.0",
+    "node-sass": "^4.13.1",
+    "nodemon": "^2.0.3",
+    "react": "16.13.1",
+    "react-dom": "16.13.1",
+    "react-redux": "^7.2.0",
+    "redux": "^4.0.5",
+    "redux-devtools-extension": "^2.13.8",
+    "redux-saga": "^1.1.3"
+  }
+}
